@@ -1,0 +1,50 @@
+# Terraform state and plan files
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfplan.*
+
+# Terraform crash logs
+crash.log
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+# Terraform module and provider cache
+.terraform/
+
+# AWS credentials and config (if present locally)
+.aws/credentials
+.aws/config
+
+# User data scripts (optional — if you regenerate them)
+userdata*.sh
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and debug output
+*.log
+*.bak
+*.tmp
+
+# Sensitive output files
+*.pem
+*.key
+*.crt
+*.env
+.env.*
