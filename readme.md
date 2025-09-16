@@ -1,6 +1,3 @@
----
-
-```markdown
 # 🛠️ AWS Terraform Config Project
 
 This project provisions a complete AWS infrastructure using Terraform, including a VPC, public subnets, EC2 web servers, an S3 bucket, and an Application Load Balancer (ALB). It's designed as a reproducible demo for learning and showcasing infrastructure-as-code best practices.
@@ -93,6 +90,3 @@ Use this DNS to access the deployed portfolio page served by Apache.
 ## 📄 License
 
 This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
-```
-
----
